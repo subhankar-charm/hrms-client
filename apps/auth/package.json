@@ -9,12 +9,5 @@
     "start": "next start",
     "lint": "next lint --max-warnings 0",
     "check-types": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@repo/ui": "*"
-  },
-  "devDependencies": {
-    "@repo/eslint-config": "*",
-    "@repo/typescript-config": "*"
   }
 }
