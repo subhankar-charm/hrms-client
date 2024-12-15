@@ -3,10 +3,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "turbo build --filter=${APP}",
-    "dev": "turbo dev --filter=${APP}",
+    "build": "turbo build",
+    "dev": "turbo dev",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --check \"**/*.{ts,tsx,md}\"",
+    "format:fix": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "engines": {
     "node": ">=18"
@@ -17,16 +18,22 @@
     "packages/*"
   ],
   "dependencies": {
-    "@radix-ui/react-avatar": "^1.1.2",
+    "@radix-ui/react-avatar": "1.1.2",
     "@repo/ui": "*",
     "next": "15.1.0",
     "react": "19.0.0",
-    "react-dom": "19.0.0"
+    "react-dom": "19.0.0",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "lucide-react": "0.468.0",
+    "tailwind-merge": "2.5.5",
+    "tailwindcss-animate": "1.0.7"
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "15",
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
+    "@repo/tailwind-config": "*",
+    "@next/eslint-plugin-next": "15",
     "@turbo/gen": "1.12.4",
     "@types/node": "20.11.24",
     "@types/react": "19.0.0",

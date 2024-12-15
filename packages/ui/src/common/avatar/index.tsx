@@ -1,4 +1,4 @@
-import { Avatar as AvatarUI, AvatarFallback, AvatarImage } from "./Avatar";
+import { Avatar as AvatarUI, AvatarFallback, AvatarImage } from './Avatar';
 
 const Avatar = () => {
   return (
