@@ -1,10 +1,12 @@
-import Avatar from '@repo/ui/avatar';
+import Avatar from '@repo/design-system/avatar';
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <Avatar />
       <p className="text-3xl font-bold underline">AUTH APP</p>;
     </>
   );
-}
+};
+
+export default Home;
