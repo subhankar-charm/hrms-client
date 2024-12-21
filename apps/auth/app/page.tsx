@@ -1,4 +1,4 @@
-import Avatar from '@repo/ui/avatar';
+import Avatar from '@repo/design-system/avatar';
 
 const Home = () => {
   return (
