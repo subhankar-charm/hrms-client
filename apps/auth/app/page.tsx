@@ -1,6 +1,8 @@
 import Avatar from '@repo/design-system/avatar';
 
-const Home = () => {
+const Home          = () => {
+  console.log('hello');
+
   return (
     <>
       <Avatar />
