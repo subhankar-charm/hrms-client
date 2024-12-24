@@ -1,0 +1,13 @@
+{
+  "workspaces": {
+    "apps/*": {
+      "project": ["app/**/*.{ts,tsx}"]
+    },
+    "packages/*": {
+      "project": "**/*.ts"
+    },
+    "rules": {
+      "unused-imports": "error"
+    }
+  }
+}

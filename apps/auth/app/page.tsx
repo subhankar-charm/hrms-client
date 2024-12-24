@@ -1,4 +1,5 @@
 import Avatar from '@repo/design-system/avatar';
+import { useEffect } from 'react';
 
 const Home = () => {
   return (
