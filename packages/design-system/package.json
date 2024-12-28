@@ -3,10 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "exports": {
-    "./button": "./app/button.tsx",
-    "./card": "./app/card.tsx",
-    "./code": "./app/code.tsx",
-    "./avatar": "./app/common/avatar/index.tsx"
+    "./button": "./app/common/button/Button.tsx",
+    "./avatar": "./app/common/avatar/Avatar.tsx",
+    "./components/DemoComponent": "./app/components/DemoComponent.tsx"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
