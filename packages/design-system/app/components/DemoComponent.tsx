@@ -1,6 +1,8 @@
 'use client';
 
-const DemoComponent = () => {
+const DemoComponent = ()           => {
+  console.log("");
+  
   return <h1>DEMO COMPONENT</h1>;
 };
 

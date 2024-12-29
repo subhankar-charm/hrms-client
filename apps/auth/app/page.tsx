@@ -1,7 +1,9 @@
 import Avatar from '@repo/design-system/avatar';
 import DemoComponent from '@repo/design-system/components/DemoComponent';
 
-const Home = () => {
+const Home = () =>           {
+  console.log('');
+
   return (
     <>
       <DemoComponent />
