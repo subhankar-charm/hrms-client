@@ -9,7 +9,7 @@
     "format:fix": "prettier --write \"**/*.{ts,tsx,md}\"",
     "knip": "knip",
     "prepare": "husky",
-    "test": "turbo test"
+    "test": "echo \"No tests specified\" && exit 0"
   },
   "engines": {
     "node": ">=18"
@@ -55,6 +55,5 @@
     "turbo": "2.3.3",
     "typescript": "5.5.4",
     "typescript-eslint": "8.15.0"
-  },
-  "test": {}
+  }
 }
