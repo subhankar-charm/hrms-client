@@ -1,7 +1,9 @@
-import type { Config } from 'tailwindcss';
 import tailwindcssAnimate from 'tailwindcss-animate';
 
-const tailwindConfig: Config = {
+/**
+ * @type {import("tailwindcss").Config}
+ */
+const tailwindConfig = {
   darkMode: ['class'],
   content: ['src/**/*.{ts,tsx}', 'app/**/*.{ts,tsx}'],
   theme: {
