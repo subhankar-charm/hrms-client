@@ -2,7 +2,8 @@
   "name": "@repo/eslint-config",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "exports": {
-    "./base": "./eslint.config.mjs"
+    "./base": "./eslint.config.js"
   }
 }

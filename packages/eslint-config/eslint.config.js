@@ -5,10 +5,9 @@ import pluginNext from '@next/eslint-plugin-next';
 
 /**
  * A shared ESLint configuration for the repository.
- *
  * @type {import("eslint").Linter.Config}
- * */
-export const baseConfig = [
+ */
+const baseConfig = [
   js.configs.recommended,
   eslintConfigPrettier,
   ...tseslint.configs.recommended,
@@ -27,3 +26,5 @@ export const baseConfig = [
     }
   }
 ];
+
+export default baseConfig;
