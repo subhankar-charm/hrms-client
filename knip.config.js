@@ -1,6 +1,5 @@
-import type { KnipConfig } from 'knip';
-
-const config: KnipConfig = {
+/** @type {import("knip").KnipConfig} */
+const config = {
   rules: {
     dependencies: 'off',
     unlisted: 'off'

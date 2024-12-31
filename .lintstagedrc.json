@@ -1,0 +1,4 @@
+{
+  "apps/**/*.{ts,tsx}": ["eslint", "prettier --check"],
+  "packages/**/*.{ts,tsx}": ["eslint", "prettier --check"]
+}
